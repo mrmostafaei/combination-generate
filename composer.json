@@ -1,0 +1,26 @@
+{
+    "name": "miladtech/combination-generate",
+    "description": "Generate combinations of items in multiple arrays",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "MiladTech\\CombinationGenerate\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "MiladTech",
+            "email": "info@milad-tech.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MiladTech\\CombinationGenerate\\Providers\\CombinationServiceProvider"
+            ]
+        }
+    }
+}
